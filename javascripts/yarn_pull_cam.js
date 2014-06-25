@@ -6,8 +6,8 @@ function yarn_pull_cam(args) {
     var cam_array = []
     var i = 0;
     var max_loop = args.max_loop || 100;
-    var r =  = args.r || 10;
-    var dx =  = args.dx || 0.0001;
+    var r = args.r || 10;
+    var dx = args.dx || 0.0001;
     var dy = 0;
     var x = 0, y = 0, theta = 0;
     
